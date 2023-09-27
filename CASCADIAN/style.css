@@ -1,0 +1,99 @@
+/* 
+.Quote_contener{
+   height: 400px;
+   width:600PX ;
+   background-color: black;
+   border-radius: 30px;
+   position: absolute;
+   margin-top:200px ;
+   margin-left:700px ;
+
+}
+.heading{
+    height:50px ;
+    width:400px ;
+    border:solid white ;
+    background-color: black;
+    border-radius:10px ;
+    position: absolute;
+    margin-top:120px ;
+    margin-left:790px ;
+    color: aliceblue;
+    
+}
+.h2{
+    position: relative;
+ text-align: center;
+}
+.btn{
+    width:150px ;
+    height: 50px;
+    border-radius:5px ;
+    position: relative;
+    margin-top:300px ;
+    margin-left:220px ;
+} */
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',sans-serif;
+}
+body{
+    display: flex;
+    justify-content:center ;
+    align-items:center ;
+    height: 100vh;
+    text-align: center;
+    background: url(/image/project-1.jpg) no-repeat center center/cover;
+}
+.container{
+    width: 550px;
+    height:450px ;
+}
+.headar{
+    font-size: 1.2rem;
+    border: solid 2px white;
+    color: #fff;
+    border-radius: 5px;
+    background-color: black;
+    padding:5px ;
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    margin-left: 53px;
+    
+}
+.Quote_container{
+    width: 100%;
+    height:auto 300px ;
+    background-color: #fff;
+    border-radius:15px ;
+    padding: 50px 40px;
+    box-shadow:0 0 10px ;
+}
+.Quote_container .text-area{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+}
+.Quote_container .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+#new-quote{
+font-size: 1.3rem;
+padding: 10px 15px;
+background-color: grey;
+border-radius: 5px;
+color: #fff;
+margin-top: 5px;
+}
+#new-quote:active{
+background-color: rgb(188, 235, 219);
+}
